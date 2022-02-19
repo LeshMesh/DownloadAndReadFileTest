@@ -19,7 +19,11 @@ compileTestJava {
 dependencies {
     testImplementation (
             "org.junit.jupiter:junit-jupiter:5.8.2",
-            'com.codeborne:selenide:6.3.0')
+            'com.codeborne:selenide:6.3.0',
+            'com.codeborne:pdf-test:1.7.0',
+            'com.codeborne:xls-test:1.4.3',
+            'com.opencsv:opencsv:5.5.2',
+            'org.assertj:assertj-core:3.22.0')
     testRuntimeOnly (
             "org.junit.jupiter:junit-jupiter:5.8.2",
             "org.slf4j:slf4j-simple:1.7.36")
